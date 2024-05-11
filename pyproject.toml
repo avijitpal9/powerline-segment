@@ -25,7 +25,7 @@ dependencies=["psutil", "powerline-status>=2.7" ]
 dev = ["twine", "build", "pip-tools"]
 
 [project.urls]
-Homepage = "https://github.com/avijitpal9/powerline-segment"
+Homepage = "https://github.com/avijitpal9/powerlinecust-segments"
 
 # [tool.setuptools.packages.find]
 # where=["src"]
