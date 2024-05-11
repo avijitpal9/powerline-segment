@@ -12,7 +12,7 @@ description='Powerline Custom Segments'
 readme='README.md'
 requires-python = ">=3.9"
 authors = [{ name = "Avijit Pal" }]
-license = { file = "LICENSE" }
+license = { text = "MIT License" }
 classifiers = [
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python",
