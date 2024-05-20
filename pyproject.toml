@@ -1,13 +1,14 @@
 [build-system]
 requires = [
     "setuptools>=45",
+    "setuptools_scm>=8",
     "wheel"
 ]
 build-backend = "setuptools.build_meta"
 
 [project]
 name='powerlinecust-segments'
-version="0.1.0"
+# version="0.1.0"
 description='Powerline Custom Segments'
 readme='README.md'
 requires-python = ">=3.9"
@@ -20,6 +21,7 @@ classifiers = [
 ]
 keywords = ["powerline", "memory", "pyenv", "jenv", "docker"]
 dependencies=["psutil", "powerline-status>=2.7" ]
+dynamic = ["version"]
 
 [project.optional-dependencies]
 dev = ["twine", "build", "pip-tools"]
@@ -33,3 +35,6 @@ Homepage = "https://github.com/avijitpal9/powerlinecust-segments"
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
+
+[tool.setuptools_scm]
+version_file = "powerlinecust/_version.py"
