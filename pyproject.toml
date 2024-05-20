@@ -38,5 +38,5 @@ pythonpath = ["src"]
 
 [tool.setuptools_scm]
 # version_file = "src/powerlinecust/_version.py"
-version_scheme = "guess-next-dev"  # ["guess-next-dev", "post-release", "python-simplified-semver", "release-branch-semver"]
+version_scheme = "release-branch-semver"  # ["guess-next-dev", "post-release", "python-simplified-semver", "release-branch-semver"]
 local_scheme = "no-local-version" # ["node-and-date", "node-and-timestamp", "dirty-tag", "no-local-version"]
